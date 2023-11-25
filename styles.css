@@ -158,3 +158,118 @@ aside .skill-group .small-group-content {
     font-size: 14px;
     line-height: 22px;
 }
+
+main {
+    padding: 40px 36px;
+}
+
+section {
+    display: flex;
+}
+
+.section-content {
+    padding-left: 36px;
+    padding-bottom: 36px;
+    flex: 1;
+}
+
+.section-decor {
+    border-left: solid 2px #e2e6ee;
+    position: relative;
+}
+
+.section-decor .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-50%);
+    background-color: white;
+    border-radius: 9999px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.section-decor .circle-inner {
+    background-color: #9251f7;
+    border-radius: 9999px;
+    width: 8px;
+    height: 8px;
+}
+
+section .heading {
+    font-size: 20px;
+    font-weight: 500;
+    color: #2e2e48;
+    margin-bottom: 20px;
+}
+
+main .overview-section {
+    font-size: 14px;
+    color: #47516b;
+}
+
+main .projects-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -8px -4px;
+}
+
+main .projects-section .project-card {
+    width: 50%;
+    padding: 8px 4px;
+}
+
+main .projects-section .project-card-content {
+    background-color: #f7f9fc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+main .projects-section .project-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+main .projects-section .project-card .project-card-info {
+    padding: 12px 20px;
+}
+
+main .projects-section .project-card .project-card-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #2e2e48;
+    margin-bottom: 4px;
+}
+
+main .projects-section .project-card .project-card-description {
+    font-size: 12px;
+    color: #47516b;
+    margin-bottom: 8px;
+}
+
+main .projects-section .project-card .project-card-link-wrapper {
+    display: flex;
+    align-items: center;
+    color: #516cf7;
+}
+
+main .projects-section .project-card .project-card-link-wrapper .icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    background-color: #e1e7fe;
+}
+
+main .projects-section .project-card .project-card-link {
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 8px;
+}
